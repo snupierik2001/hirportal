@@ -17,7 +17,7 @@ Az online megjelenítés mobil eszközön, különböző felbontású képernyő
 
 ## Jelenlegi üzleti folyamatok
 
-Riportereink adatainak nyilvántartása.
-Hírinformáció beszerzése.
-Cikkek elkészítése, nyomtatása és publikálása.
+Riportereink adatainak nyilvántartása. <br>
+Hírinformáció beszerzése. <br>
+Cikkek elkészítése, nyomtatása és publikálása. <br>
 Folyamatos hírközlés -> Naponta frissülő cikkek.
