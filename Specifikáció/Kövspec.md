@@ -24,7 +24,13 @@ Folyamatos hírközlés -> Naponta frissülő cikkek.
 
 ## Igényelt üzleti folyamatok
 
-Online hírportál megjelenítés.
-Online cikkek publikálása.
-Kommentelési lehetőség.
+Online hírportál megjelenítés. <br>
+Online cikkek publikálása. <br>
+Kommentelési lehetőség. <br>
 Reakció adás az adott cikkre.
+
+## Rendszerre vonatkozó szabályok 
+A web felület szabványos eszközökkel készüljön, html/css/javascript. <br>
+A képek jpeg és png formátumúak lehetnek. <br>
+A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR, ...
+
