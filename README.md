@@ -1,1 +1,2 @@
-# hirportal
+# Hírportál
+Szoftverfejlesztési Módszertanok: MINI Projekt
