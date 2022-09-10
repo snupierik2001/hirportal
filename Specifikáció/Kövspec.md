@@ -39,3 +39,7 @@ Könnyen üzemeltethető oldal <br>
 Reszponzív dizájn megoldás <br>
 Szerepkörök kezelése (cikkszerkesztő, látogató)
 
+## Fogalomszótár
+GDPR: A GDPR a General Data Protection Regulation kezdőbetűiből képzett mozaikszó, magyarul általános adatvédelmi rendelet.<br>
+Hír: Olyan információs egység, mely rendelkezik egy címmel, egy rövid leírással, egy létrehozási dátummal és egy a témához kapcsolódó képpel.<br>
+Reszponzív dizájn: gy olyan megközelítéssel tervezett weboldal, amelynek a célja az, hogy optimális megjelenést biztosítson - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig)
