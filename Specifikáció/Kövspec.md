@@ -32,5 +32,10 @@ Reakció adás az adott cikkre.
 ## Rendszerre vonatkozó szabályok 
 A web felület szabványos eszközökkel készüljön, html/css/javascript. <br>
 A képek jpeg és png formátumúak lehetnek. <br>
-A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR, ...
+A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR
+
+## Követelménylista
+Könnyen üzemeltethető oldal <br>
+Reszponzív dizájn megoldás <br>
+Szerepkörök kezelése (cikkszerkesztő, látogató)
 
