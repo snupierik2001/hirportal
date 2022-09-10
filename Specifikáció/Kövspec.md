@@ -21,3 +21,10 @@ Riportereink adatainak nyilvántartása. <br>
 Hírinformáció beszerzése. <br>
 Cikkek elkészítése, nyomtatása és publikálása. <br>
 Folyamatos hírközlés -> Naponta frissülő cikkek.
+
+## Igényelt üzleti folyamatok
+
+Online hírportál megjelenítés.
+Online cikkek publikálása.
+Kommentelési lehetőség.
+Reakció adás az adott cikkre.
