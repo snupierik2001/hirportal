@@ -24,10 +24,7 @@ Folyamatos hírközlés -> Naponta frissülő cikkek.
 
 ## Igényelt üzleti folyamatok
 
-Online hírportál megjelenítés. <br>
-Online cikkek publikálása. <br>
-Kommentelési lehetőség. <br>
-Reakció adás az adott cikkre.
+![kov_spec](igenyelt_uzleti_folyamatok.png "Use-case diagram")
 
 ## Rendszerre vonatkozó szabályok 
 A web felület szabványos eszközökkel készüljön, html/css/javascript. <br>
@@ -35,9 +32,9 @@ A képek jpeg és png formátumúak lehetnek. <br>
 A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR
 
 ## Követelménylista
-Könnyen üzemeltethető oldal <br>
-Reszponzív dizájn megoldás <br>
-Szerepkörök kezelése (cikkszerkesztő, látogató)
+K01. Könnyen üzemeltethető oldal <br>
+K02. Reszponzív dizájn megoldás <br>
+K03. Szerepkörök kezelése (cikkszerkesztő, látogató)
 
 ## Fogalomszótár
 GDPR: A GDPR a General Data Protection Regulation kezdőbetűiből képzett mozaikszó, magyarul általános adatvédelmi rendelet.<br>
