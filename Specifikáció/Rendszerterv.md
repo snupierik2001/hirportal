@@ -29,7 +29,7 @@ Munkatársainkról nyilvántartott adatok:
 
 ## 2. A Blink News hírportál fizikai kiépítése <br>
 Hírportálunknak az Internet topológiára épülő szokásos kliens-szerver felépítésű struktúrával kell rendelkeznie.
-(ÁBRA) <br>
+![rendszerterv](fizikaikiepites.png "Fizikai kiépítés") <br>
 Megjegyzés: Az ábra nem a tényleges projekt megvalósítást reprezentálja, csupán demonstráló értékű. <br>
 
 ## 3. Adattárolás <br>
