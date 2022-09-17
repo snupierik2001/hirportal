@@ -17,10 +17,7 @@ Az online megjelenítés mobil eszközön, különböző felbontású képernyő
 
 ## Jelenlegi üzleti folyamatok
 
-Riportereink adatainak nyilvántartása. <br>
-Hírinformáció beszerzése. <br>
-Cikkek elkészítése, nyomtatása és publikálása. <br>
-Folyamatos hírközlés -> Naponta frissülő cikkek.
+![kov_spec](jelenlegi_uzleti_folyamatok.png "Vízezés ábra")
 
 ## Igényelt üzleti folyamatok
 
