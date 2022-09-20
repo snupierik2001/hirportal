@@ -1,12 +1,12 @@
 # Hírportál követelmény specifikáció
 
-## Jelenlegi helyzet leírása
-
-Blink-Hírek elsőkézből "hitelesen" ;) 
-A Blink.hu oldalunk ellátja az olvasóinkat a legfrissebb hírekkel az ország leghihetőbb hírportálján.
-A szlogenünk Blink újságnál az, hogy "Egy szempillantás alatt megújul a világ". 
-A híreink között megtalálhatóak olyan témák is mint a politika, gazdaság, sport, erotika, külpolitika és világjárvánnyal kapcsolatos hírek.
-Mi mindig ott vagyunk ahol van a hír, Blink.
+> ## Jelenlegi helyzet leírása
+>
+> Blink-Hírek elsőkézből "hitelesen" ;) 
+> A Blink.hu oldalunk ellátja az olvasóinkat a legfrissebb hírekkel az ország leghihetőbb hírportálján.
+> A szlogenünk Blink újságnál az, hogy "Egy szempillantás alatt megújul a világ". 
+> A híreink között megtalálhatóak olyan témák is mint a politika, gazdaság, sport, erotika, külpolitika és világjárvánnyal kapcsolatos hírek.
+> Mi mindig ott vagyunk ahol van a hír, Blink.
 
 ## Vágyálomrendszer
 
