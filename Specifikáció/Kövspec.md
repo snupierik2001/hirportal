@@ -15,13 +15,13 @@
 > Olyan honlapot szeretnénk ami HTML alapú, CSS file-beli megformázással és JavaScript integrálással, ezáltal legyenek könnyen modósíthatóak híreink.
 > Az online megjelenítés mobil eszközön, különböző felbontású képernyőkön is jól látható legyen, reszponzív felület kialakítással.
 
-## Jelenlegi üzleti folyamatok
+> ## Jelenlegi üzleti folyamatok
+>
+> ![kov_spec](jelenlegi_uzleti_folyamatok.png "Vízezés ábra")
 
-![kov_spec](jelenlegi_uzleti_folyamatok.png "Vízezés ábra")
-
-## Igényelt üzleti folyamatok
-
-![kov_spec](igenyelt_uzleti_folyamatok.png "Use-case diagram")
+>## Igényelt üzleti folyamatok
+>
+> ![kov_spec](igenyelt_uzleti_folyamatok.png "Use-case diagram")
 
 > ## Rendszerre vonatkozó szabályok 
 > 
