@@ -23,10 +23,11 @@
 
 ![kov_spec](igenyelt_uzleti_folyamatok.png "Use-case diagram")
 
-## Rendszerre vonatkozó szabályok 
-A web felület szabványos eszközökkel készüljön, html/css/javascript. <br>
-A képek jpeg és png formátumúak lehetnek. <br>
-A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR
+> ## Rendszerre vonatkozó szabályok 
+> 
+> A web felület szabványos eszközökkel készüljön, html/css/javascript. <br>
+> A képek jpeg és png formátumúak lehetnek. <br>
+> A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR
 
 ## Követelménylista
 K01. Könnyen üzemeltethető oldal <br>
