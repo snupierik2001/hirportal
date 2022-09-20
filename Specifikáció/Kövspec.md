@@ -29,10 +29,11 @@
 > A képek jpeg és png formátumúak lehetnek. <br>
 > A felhasználókat azonosító web oldalak esetében szükséges jogszabályokat be kell tartani: GDPR
 
-## Követelménylista
-K01. Könnyen üzemeltethető oldal <br>
-K02. Reszponzív dizájn megoldás <br>
-K03. Szerepkörök kezelése (cikkszerkesztő, látogató)
+> ## Követelménylista
+> 
+> K01. Könnyen üzemeltethető oldal <br>
+> K02. Reszponzív dizájn megoldás <br>
+> K03. Szerepkörök kezelése (cikkszerkesztő, látogató)
 
 ## Fogalomszótár
 GDPR: A GDPR a General Data Protection Regulation kezdőbetűiből képzett mozaikszó, magyarul általános adatvédelmi rendelet.<br>
