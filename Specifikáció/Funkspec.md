@@ -1,7 +1,7 @@
 # Funkcionális követelmény
-## 1.0 Az oldal funkciói:
+## 1.0 Az oldal funkciói
 
-### 1.1 Felhasználók számára elérhető funkciók:
+### 1.1 Felhasználók számára elérhető funkciók
 
 1.1.1 Regisztráció:
 A felhasználók megjegyzés írás, valamint a cikk értékelés lehetőségének előfeltétele az előzetes regisztráció. <br>
@@ -41,7 +41,7 @@ Bejelentkezés után a felhasználóknak lehetősége nyílik a cikkekhez hozzá
 Értékelés: <br>
 A felhasználó 1-től 5 csillaggal értékelheti a cikk minőségét / hasznosságát.
 
-## 1.3 Adminisztrátor számára elérhető funkciók:
+## 1.3 Adminisztrátor számára elérhető funkciók
 
 ### 1.3.1 Bejelentkezés:
 
@@ -61,3 +61,5 @@ Cikk módosítása: <br>
 
 A „szerkesztés” gombra kattintva ismét szerkeszthetővé válik a már publikált cikk. A „módosítás” gomb lenyomásával az író felülírja a régi cikket.
 
+# 2.0 Koncepciós ábra
+![funk.spec](koncepcio.png 'Koncepciós ábra')
