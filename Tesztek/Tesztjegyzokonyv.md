@@ -25,8 +25,7 @@
 >    Kapott eredmény: Harmonikusabb dizájn elérése <br>
 >    Konklúzió: A teszt sikerességgel zárult <br>
 >    Megjegyzés: Scroll back gomb hozzáadása szükséges
-# Tesztjegyzőkönyv
-
+>    
 > ## Végleges-verzió tesztelése:
 >
 > ### Az weboldal végleges tesztelése minden gomb és hír megnézése
