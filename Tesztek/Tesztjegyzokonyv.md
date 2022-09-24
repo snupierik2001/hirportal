@@ -25,3 +25,17 @@
 >    Kapott eredmény: Harmonikusabb dizájn elérése <br>
 >    Konklúzió: A teszt sikerességgel zárult <br>
 >    Megjegyzés: Scroll back gomb hozzáadása szükséges
+# Tesztjegyzőkönyv
+
+> ## Végleges-verzió tesztelése:
+>
+> ### Az weboldal végleges tesztelése minden gomb és hír megnézése
+>
+>    Tesztelő neve: Kovács Erik <br>
+>    Tesztelés ideje: 2022.09.24. 10:35 <br>
+>    Tesztelt rendszer: Weboldal <br>
+>    Tesztkörnyezet: Google Chrome, Verzió: 99.0.4844.51 <br>
+>    Várt eredmény: Modulok megfelelő működése, JavaScript elvárt működése <br>
+>    Kapott eredmény: Modulok megfelelő működése, JavaScript elvárt működése <br>
+>    Konklúzió: A teszt sikerességgel zárult <br>
+>    Megjegyzés: -
