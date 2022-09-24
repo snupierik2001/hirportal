@@ -33,7 +33,9 @@
 
 #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -87,16 +89,14 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);    
-    background: linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);
+    background: #2980B9;  /* fallback for old browsers */
     color: #fff;
     transform: all 0.3s ease;
 }
 
 /* Navigációs elemek átszínezése rámutatással */
 .navbar__links:hover {
-    color: #9518fc;
+    color: #18cefc;
     transition: all 0.3s ease;
 }
 
@@ -222,11 +222,12 @@
 }
 
 .main__description {
-    text-align: center;
+    text-align: left;
     font-size: 60px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);    
-    background: linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);
+    margin: 20px;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -236,11 +237,11 @@
 
 .main__btn {
     font-size: 1.8rem;
-    background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);    
-    background: linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);
+    background: #2980B9;  /* fallback for old browsers */
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
+    margin: 1.2rem;
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
@@ -261,7 +262,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #ed1a52;
+    background: #1c33b9;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -275,28 +276,49 @@
 }
 
 .highlight {
-    border-bottom: 4px solid rgb(132,0,255);
+    border-bottom: 4px solid rgb(8, 206, 241);
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 960px) {
     .main__heading {
         font-size: 60px;
     }
 
     .main__description {
         font-size: 40px;
+        margin: 30px;
     }
 }
 
 /* Friss hírek szekció */
+.container {  
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    grid-template-rows: 0fr 0fr;
+    grid-auto-columns: 0fr;
+    grid-auto-rows: 0fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". .";
+    justify-content: center;
+    background-color: #131313;
+  }
+
+  .container img
+  {
+    margin: 40px;
+  }
+  
 
 .fresh {
     background-color: #131313;
-    padding: 10rem 0;
+    padding: 5rem 0;
 }
 
 .fresh__container {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
@@ -307,6 +329,7 @@
     max-width: 1300px;
     padding: 0 50px;
 }
+
 
 .fresh__content {
     color: #ffff;
