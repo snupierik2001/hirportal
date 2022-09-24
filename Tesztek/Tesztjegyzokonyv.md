@@ -4,11 +4,11 @@
 >
 > ### Az alap weboldal megjelenítésének tesztelése, reszponzivitás
 >
->    Tesztelő neve: Szanyi Manó Hunor
->    Tesztelés ideje: 2022.09.22. 13:35
->    Tesztelt rendszer: Alap dizájn
->   Tesztkörnyezet: Opera böngésző, Verzió: 90.0.4480.84
->   Várt eredmény: Modulok megfelelő működése, JavaScript elvárt működése
->   Kapott eredmény: Modulok megfelelő működése, JavaScript elvárt működése
->   Konklúzió: A teszt sikerességgel zárult
+>    Tesztelő neve: Szanyi Manó Hunor <br>
+>    Tesztelés ideje: 2022.09.22. 13:35 <br>
+>    Tesztelt rendszer: Alap dizájn <br>
+>    Tesztkörnyezet: Opera böngésző, Verzió: 90.0.4480.84 <br>
+>    Várt eredmény: Modulok megfelelő működése, JavaScript elvárt működése <br>
+>    Kapott eredmény: Modulok megfelelő működése, JavaScript elvárt működése <br>
+>    Konklúzió: A teszt sikerességgel zárult <br>
 >    Megjegyzés: Változtatni kell a megjelenésen (harmónikusabb színek szükségesek)
