@@ -58,3 +58,23 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu); // Eljárás meghívása
 navLogo.addEventListener('click', hideMobileMenu); // Logóra kattintva is működjön
+
+  // Gomb lekérdezése
+  let mybutton = document.getElementById("myBtntop");
+
+  // Amikor a felhasználó legörget 20px-t az oldal tetejéről, akkor megjelenik a gomb
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  // Amikor rákattint a felhasználó a gombra, visszamegy az oldal tetejére
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
