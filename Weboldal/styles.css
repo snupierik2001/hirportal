@@ -7,6 +7,27 @@
     scroll-behavior: smooth;
 }
 
+.images {
+    padding: 2rem;
+    font-size: 4rem;
+    background: #fff;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.images p {
+    font-size: 1.2rem;
+    margin: 1.5rem;
+}
+
+.images h2 {
+    font-size: 2.3rem;
+    margin-left: 20px;
+}
+
 /* Navigációs menü kialakítása */
 .navbar {
     background: #131313;
@@ -33,7 +54,7 @@
 
 #navbar__logo {
     background-color: #ff8177;
-    background: #2980B9;  /* fallback for old browsers */
+    background: #2980B9;
     background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     background-size: 100%;
@@ -89,7 +110,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #2980B9;  /* fallback for old browsers */
+    background: #2980B9;
     color: #fff;
     transform: all 0.3s ease;
 }
@@ -238,11 +259,11 @@
 .main__btn {
     font-size: 1.8rem;
     background: #2980B9;  /* fallback for old browsers */
-    padding: 20px 60px;
+    padding: 10px 30px;
     border: none;
     border-radius: 4px;
-    margin: 1.2rem;
-    margin-top: 2rem;
+    margin: 1rem;
+    margin-top: 1rem;
     cursor: pointer;
     position: relative;
     outline: none;
@@ -291,7 +312,7 @@
 }
 
 /* Friss hírek szekció */
-.container {  
+.container {
     display: grid;
     grid-template-columns: 0fr 0fr;
     grid-template-rows: 0fr 0fr;
@@ -308,9 +329,23 @@
 
   .container img
   {
-    margin: 40px;
+    margin: 10px;
   }
   
+  .container a
+  {
+    text-decoration: none;
+  }
+
+  .container h2:hover
+  {
+    background-color: #0073de;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
 
 .fresh {
     background-color: #131313;
@@ -338,8 +373,9 @@
 
 .fresh__content h1 {
     font-size: 2rem;
-    background-color: #fe3b6f;
-    background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -351,9 +387,9 @@
 
 .fresh__content h2 {
     font-size: 4rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);    
-    background: linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -380,11 +416,25 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #0014882c 0%, #00a2ff85 100%);
 }
 
 /* Tablet verzió */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 960px) {
+    
+    .container img {
+        margin: 10px;
+    }
+    .images img {
+        max-width: 100%;
+    }
+    .images h2 {
+        font-size: 50%;
+    }
+    .images p {
+        font-size: 20%;
+    }
+
     .fresh__container {
         display: grid;
         grid-template-columns: 1fr;
@@ -455,18 +505,19 @@
 /* Kategóriák szekció */
 .categs {
     background: #131313;
-    display: flex;
+    display: block;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     height: 100%;
-    padding: 10rem 0;
+    padding: 10rem 10rem;
 }
 
 .categs h1 {
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);    
-    background: linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);
+    padding-bottom: 2rem;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -477,21 +528,20 @@
 .categ__card p {
     font-size: 1.2rem;
     text-align: center;
+    padding: 1rem;
     margin: 10px;
     height: 50px;
-    width: 300px;
     border-radius: 4px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background: linear-gradient(to right, #fcb045,#fd1d1d, #833ab4);
-    transition: 0.3s ease-in;
+    background: #2980B9;
 }
 
 @media screen and (max-width: 1300px) {
     .categs {
-        grid-template-columns: 1fr 1fr;
+        padding: 10rem 5rem;
     }
 }
 
@@ -611,3 +661,82 @@
         width: 100%;
     }
 }
+
+
+/* Hír aloldal megformázása */
+.news {
+    line-height:2rem;
+    text-align: justify;
+    display: flex;
+    background: #131313;
+    color: #fff;
+}
+
+.news img {
+    margin: 2rem;
+    padding: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+.new {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.new h2 {
+    font-size: 2rem;
+    margin: 0 0 1.2rem;
+}
+
+.new p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .news img {
+        width: 70%;
+        height: 70%;
+    }
+    .news{
+        padding: 4rem;
+        display: block;
+        background: #131313;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .new h2, h3{
+        font-size: 0.9rem;
+    }
+    .new p{
+        font-size: 0.6rem;
+    }
+    .news{
+        padding: 4rem;
+        display: block;
+        background: #131313;
+    }
+}
+
+#myBtntop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(8, 0, 255); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+  #myBtntop:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
