@@ -100,7 +100,7 @@ Feladatok szétosztása:
 
     [M-05] - Értékelésre kész állapot
 
-<br>
+
 
 ### A fejlesztés tervének ütemezése
 
@@ -113,3 +113,73 @@ Feladatok szétosztása:
     4. Az oldal értékelésre és használatra készen való kiadása
 
 <br>
+
+### 7. Az üzleti folyamatok 
+
+#### 7.1 A fő cél
+
+- A weboldal megfelelő megjelenitése külömböző eszközökön
+- Lokálisan megnyitható, szerverre emelhető
+
+#### 7.2 Bemenet
+
+- A felhasználó egérbemenetei
+
+#### 7.3 Kimenet
+
+- A kivánt weboldal rész megjelenítése a felhasználónak
+- Az oldal nyomtatása
+
+### 8. Követelmények 
+
+#### [K-01] Rezponzív dizájn
+
+	Az oldal rezponzívitásáért a CSS file lesz a felelős
+
+#### [K-02] Gyors megjelenítés
+
+	Az oldalnak a megjelenítése rövid időbe kell teljen, nem több mint 1 másodperc
+
+#### [K-03] Hordozhatóság
+
+	Amennyiben az oldalt szerverre kivánjuk helyezni, ez problémamentesen lehessen megvalósítani
+	
+#### [K-04] Rendszerfüggetlenség megvalósítása
+
+	Az oldalnak problémamentesen, megfelelő megjelenítéssel kell megjelenjen külömböző eszközökön
+	
+### 9. Funkcionális tervezés
+
+#### 9.1 A rendszer főbb tulajdonságai
+
+- Rezponzív oldal, tableten, mobilon, számítógépen, egyéb eszközökön is helyesen jelenik meg az oldal
+- Hordozható a kliens bármelyik eszközön képes módosítani statikusan az oldal megjelenését
+
+#### 9.2 Rendszerösszetevők
+
+- Online Weboldal
+- Szervergép 
+
+#### 9.3 Oldal használata
+
+Az oldalt használó kliensek az oldalon található navigációs füllel könnyen ugorhatnak az oldal egyik pontjáról a másikra. Képesek megnyitni az oldalon megtalálható cikkeket amik elnavigálják őket egy külön oldalra ahol megjelenítésre kerül az adott cikk.
+
+### 10. Megválasztott környezetek
+
+- Felhasználó által biztosított eszköz:  
+ 	- Webszerver
+ 	
+- Fejlesztői szoftverek:
+	-Visual Studio Code
+
+- Tesztelési felületek:
+	- Opera
+	- Google Chrome
+	- Microsoft Edge
+	- Mozilla
+	
+### 11. Fogalomtár
+- A HTML: (angolul: HyperText Markup Language, „hiperszöveges jelölőnyelv”) egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C (World Wide Web Consortium) támogatásával. Az aktuális változata az 5, mely az SGML általános jelölőnyelv egy konkrét alkalmazása (azaz minden 5-ös HTML dokumentum egyben az SGML dokumentumszabványnak is meg kell hogy feleljen). Ezt tervek szerint lassan kiszorította volna az XHTML, amely a szintén SGML alapú XML leíró nyelven alapu
+- A CSS: (Cascading Style Sheets, magyarul: „lépcsőzetes stíluslapok”) a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le. Ezenkívül használható bármilyen XML alapú dokumentum stílusának leírására is, mint például az SVG, XUL stb.
+- A JavaScript: programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+- A Visual Studio Code: (rövidítve: VSCode vagy VS Code) egy ingyenes, nyílt forráskódú kódszerkesztő, melyet a Microsoft fejleszt Windows, Linux és OS X operációs rendszerekhez. Támogatja a hibakeresőket, valamint beépített Git támogatással rendelkezik, továbbá képes az intelligens kódkiegészítésre (intelligent code completion) az IntelliSense segítségével. Ezen felül testre szabható, így a felhasználók megváltoztathatják a kinézetet (témát), megváltoztathatják a szerkesztő gyorsbillentyű-kiosztását, az alapértelmezett beállításokat és még sok egyebet.
