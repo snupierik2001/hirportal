@@ -21,6 +21,8 @@ a cikkek publikálása, módosítása, törlése.
    - Cikk publikálása (nyomdai úton, valamint online portálra)
 <br>
 
+(Ezek a funkciók a kis projektben nem kerülnek elkészítésre.) <br>
+
 **Felhasználói adatok tárolása** <br>
 Az online hírportált bárki szabadon látogathatja, a cikkeket megtekintheti, azonban egyes az oldal egyes funkcióit csak a regisztrált <br>
 felhasználóink érhetik el. A regisztrált felhasználók email és jelszó párossal tudnak bejelentkezni.
@@ -41,6 +43,8 @@ Hírportálunknak az Internet topológiára épülő szokásos kliens-szerver fe
 ![rendszerterv](fizikaikiepites.png "Fizikai kiépítés") <br>
 Megjegyzés: Az ábra nem a tényleges projekt megvalósítást reprezentálja, csupán demonstráló értékű. <br>
 <br>
+
+(Ezek a funkciók a kis projektben nem kerülnek elkészítésre.) <br>
 
 ## 3. Adattárolás <br>
 A hírportálunk által tárolt személyes információkat JSON fájlban akarjuk tárolni. Ebbe beleértve a felhasználói adatokat, valamint az adminisztrátoraink által <br>ű
