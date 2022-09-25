@@ -22,7 +22,8 @@
 >## Igényelt üzleti folyamatok
 >
 > ![kov_spec](igenyelt_uzleti_folyamatok.png "Use-case diagram")
-
+(Ezek a funkciók a kis projektben nem kerülnek elkészítésre.) <br>
+>
 > ## Rendszerre vonatkozó szabályok 
 > 
 > A web felület szabványos eszközökkel készüljön, html/css/javascript. <br>
